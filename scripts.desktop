@@ -1,0 +1,22 @@
+[Desktop Entry]
+GenericName=Scripts Utilities For An Easy Life
+GenericName[fr]=Quelques Scriptes Pour Une Vie Meilleure
+Name=Scripts
+Name[fr]=Scriptes
+Comment=Quelques Scriptes Pour Une Vie Meilleure
+Categories=Utility;
+Keywords=scripts;
+Keywords[fr]=scriptes;
+Exec=@Scripts@/bin/open-documentation.py
+Icon=scripts
+Type=Application
+Terminal=false
+StartupNotify=false
+Actions=OpenDocumentation;
+X-DBUS-StartupType=Multi
+
+[Desktop Action OpenDocumentation]
+Name=Open a documentation file
+Name[fr]=Ouvrir un fichier de documentation
+Exec=@Scripts@/bin/open-documentation.py
+X-KDE-Shortcuts=Ctrl+Shift+Super+Alt+O
