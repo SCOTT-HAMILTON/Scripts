@@ -19,4 +19,4 @@ X-DBUS-StartupType=Multi
 Name=Open a documentation file
 Name[fr]=Ouvrir un fichier de documentation
 Exec=@Scripts@/bin/open-documentation.py
-X-KDE-Shortcuts=Ctrl+Shift+Super+Alt+O
+X-KDE-Shortcuts=Meta+Ctrl+Alt+Shift+O
