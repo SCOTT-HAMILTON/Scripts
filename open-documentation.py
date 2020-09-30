@@ -29,5 +29,5 @@ print(docFile)
     'jpeg': lambda : call ([ 'eom', '-f', docFile ]),
     'jpg':  lambda : call ([ 'eom', '-f', docFile ]),
     'png':  lambda : call ([ 'eom', '-f', docFile ]),
-    'pdf':  lambda : call ([ 'zathura', docFile]),
+    'pdf':  lambda : call ([ 'zathura', '--mode=fullscreen', docFile]),
 }[os.path.splitext(docFile)[1][1:]]()
